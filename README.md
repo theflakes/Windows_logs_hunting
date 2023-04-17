@@ -1,4 +1,7 @@
 ## Event IDs for Hunting
+- Under the hood Windows event logs are in XML format
+    - e.g. [4624(S) An account was successfully logged on. (Windows 10) | Microsoft Learn](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624)
+- You can replace the event id at the end of the URL with the event id you want more information on the XML format for
 
 ### Logon Events:
 - 4624 - successful logon
