@@ -1,8 +1,5 @@
-Reference to useful Windows event IDs for monitoring and hunting an environment. Includes useful fields and interesting field values.
-
-DISCLAIMER: Context is everything. Enabling some of these event IDs is not always recommended for continued use in certain contexts. Always research and test their use first.
-
 ## Event IDs for Hunting
+See: [theflakes/Windows_logs_hunting (github.com)](https://github.com/theflakes/Windows_logs_hunting)
 
 ### Logon Events:
 - 4624 - successful logon
@@ -68,14 +65,20 @@ DISCLAIMER: Context is everything. Enabling some of these event IDs is not alway
 - 13 - registry value set
 - 14 - registry key or value renamed
 - 15 - file alternate data stream created
+- 16 - service configuration change
 - 17 - named pipe created
-- 18 - Named pipe connected
+- 18 - named pipe connected
 - 19 - WMI filter event registered
 - 20 - WMI consumer event registered
 - 21 - WMI consumer to filter binding registered
 - 22 - DNS query
 - 23 - file deleted
-- 255 - sysmon error
+- 24 - clipboard change (new content)
+- 25 - process tampering (e.g. hollowing / herpaderp)
+- 26 - file deleted
+- 27 - Sysmon blocked an executable from running
+- 28 - Sysmon blocked file shredding (e.g. `sdelete.exe`)
+- 255 - Sysmon error
 
 ### ScheduledTask logs:
 - 4698 - created
