@@ -1,5 +1,4 @@
 ## Event IDs for Hunting
-See: [theflakes/Windows_logs_hunting (github.com)](https://github.com/theflakes/Windows_logs_hunting)
 
 ### Logon Events:
 - 4624 - successful logon
