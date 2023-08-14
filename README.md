@@ -82,6 +82,13 @@
 - 28 - Sysmon blocked file shredding (e.g. `sdelete.exe`)
 - 255 - Sysmon error
 
+### PowerShell logs:
+- 4100 - Error Message
+- 4101 - script block logging
+- 40961 - PowerShell console is starting up
+- 40962 - PowerShell console is ready for user input
+- 53504 - Windows PowerShell has started an IPC listening thread on process
+
 ### ScheduledTask logs:
 - 4698 - created
 - 4699 - deleted
